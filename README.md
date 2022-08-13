@@ -6,4 +6,4 @@ This is the code repository for the above-mentioned paper. It contains the follo
 > Testing script: sv_model_train.py  
 
 The following figure shows the developed model in this paper:   
-![NovGMDeep architecture](Pictures/NoGMDeep.png)
+![NovGMDeep Architecture](Pictures/NoGMDeep.png)
