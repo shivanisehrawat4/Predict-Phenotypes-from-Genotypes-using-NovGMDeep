@@ -7,4 +7,4 @@ This is the code repository for the above-mentioned paper. It contains the follo
 
 The following figure shows the developed model in this paper:   
 
-![NovGMDeep Architecture](NovGMDeep.png){width="400" height="600" style="display: block; margin: 0 auto"}
+![NovGMDeep Architecture](NovGMDeep.png){ width="400" height="600" style="display: block; margin: 0 auto" }
