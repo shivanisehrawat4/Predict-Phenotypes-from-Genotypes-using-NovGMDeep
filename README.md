@@ -1,4 +1,4 @@
-Predicting Phenotypes From Novel Genomic Markers Using Deep Learning
+# Predicting Phenotypes From Novel Genomic Markers Using Deep Learning
 - - -
 This is the code repository for the above-mentioned paper. It contains the following files.
 > Train Test Split script file: sv_data_split.py  
@@ -8,3 +8,7 @@ This is the code repository for the above-mentioned paper. It contains the follo
 The following figure shows the developed model in this paper:   
 
 ![NovGMDeep Architecture](Pictures/NovGMDeep.png#center)  
+
+# Installation
+Python 3.9
+pip install -r requirements.txt
