@@ -11,4 +11,6 @@ The following figure shows the developed model in this paper:
 
 # Installation
 Python 3.9
+```
 pip install -r requirements.txt
+```
