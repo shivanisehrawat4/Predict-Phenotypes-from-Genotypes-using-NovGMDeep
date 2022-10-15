@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 # Data
 The full VCF variant files containing the structural variants data for A. thaliana samples are publicly available on European Variation Archive https://www.ebi.ac.uk/ena/browser/view/ERZ1458872?show=analyses (PRJEB38975) \
-The phenotype data of Flowering time of A. thaliana samples can be found in the file "FT.csv"
+The phenotype data of Flowering time of A. thaliana samples can be found in the file "FT10_arabi.csv"
 
 # Citation
 ```
