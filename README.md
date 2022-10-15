@@ -18,6 +18,13 @@ pip install -r requirements.txt
 ```
 
 # Data
-The full VCF variant files containing the structural variants data for the $1,301$ \textit{A. thaliana} samples are publicly available on European Variation Archive (\href{https://www.ebi.ac.uk/ena/browser/view/ERZ1458872?show=analyses}{PRJEB38975})
+The full VCF variant files containing the structural variants data for \textit{A. thaliana} samples are publicly available on European Variation Archive https://www.ebi.ac.uk/ena/browser/view/ERZ1458872?show=analyses
 
 # Citation
+@article{sehrawat2022predicting,
+  title={Predicting Phenotypes From Novel Genomic Markers Using Deep Learning},
+  author={Sehrawat, Shivani and Najafian, Keyhan and Jin, Lingling},
+  journal={bioRxiv},
+  year={2022},
+  publisher={Cold Spring Harbor Laboratory}
+}
