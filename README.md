@@ -18,9 +18,11 @@ pip install -r requirements.txt
 ```
 
 # Data
-The full VCF variant files containing the structural variants data for \textit{A. thaliana} samples are publicly available on European Variation Archive https://www.ebi.ac.uk/ena/browser/view/ERZ1458872?show=analyses
+The full VCF variant files containing the structural variants data for A. thaliana samples are publicly available on European Variation Archive https://www.ebi.ac.uk/ena/browser/view/ERZ1458872?show=analyses
+The phenotype data of Flowering time of A. thaliana samples can be found in the file "FT.csv"
 
 # Citation
+```
 @article{sehrawat2022predicting,
   title={Predicting Phenotypes From Novel Genomic Markers Using Deep Learning},
   author={Sehrawat, Shivani and Najafian, Keyhan and Jin, Lingling},
@@ -28,3 +30,4 @@ The full VCF variant files containing the structural variants data for \textit{A
   year={2022},
   publisher={Cold Spring Harbor Laboratory}
 }
+```
