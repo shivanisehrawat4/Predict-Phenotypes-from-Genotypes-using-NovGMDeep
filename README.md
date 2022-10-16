@@ -18,7 +18,7 @@ The phenotype data of Flowering time of A. thaliana samples can be found in the 
 
 # Usage
 1. Data Preprocessing
-> Script for selecting good quality genotypes: quality_based_selection.ipynb \
+> Script for selecting high quality genotypes: quality_based_selection.ipynb \
 > Script for making the data input-ready to the model: data_processing.ipynb
 
 2. Data Split
