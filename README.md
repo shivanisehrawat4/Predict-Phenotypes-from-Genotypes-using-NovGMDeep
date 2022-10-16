@@ -19,17 +19,17 @@ The phenotype data of Flowering time of A. thaliana samples can be found in the 
 
 # Usage
 1. Data Preprocessing
-> 
->
+> Script for selectiing good quality genotypes: quality_based_selection.ipynb
+> Script for making the data input-ready to the model: data_processing.ipynb
 
 2. Data Split
-> Train Test Split script: sv_data_split.py  
+> Script for splitting training and testing datasets: sv_data_split.py  
 
 3. Train the Model
-> Training script: sv_model_train.py  
+> Script for training: sv_model_train.py  
 
 4. Test the Model
-> Testing script: sv_model_train.py 
+> Script for testing: sv_model_train.py 
 
 # Citation
 ```
