@@ -5,9 +5,7 @@ We present a one-dimensional deep convolutional neural network model for genomic
 #### NovGMDeep Architecture   
 <p align="center">
 <img width="200" src="Pictures/NovGMDeep.png">
-</p>
-
-![NovGMDeep Architecture](Pictures/NovGMDeep.png)     
+</p>    
 
 ## Installation
 Python 3.9
