@@ -7,7 +7,7 @@ We present a one-dimensional deep convolutional neural network model for genomic
 <img width="200" src="Pictures/NovGMDeep.png">
 </p>    
 
-## Installation
+## Install
 Python 3.9
 ```
 pip install -r requirements.txt
