@@ -1,10 +1,10 @@
 ## Predicting Phenotypes From Novel Genomic Markers Using Deep Learning
 
-We present a one-dimensional deep convolutional neural network model for genomic selection, NovGMDeep, that predicts phenotypes using novel genomic markers to evade the curse of high dimensionality and non-linearity of traditional GS models. The model avoids overfitting by applying the convolutional, pooling, and dropout layers hence decreases the complexity caused by the large number of genomic markers. We trained and evaluated the model on the samples of Arabidopsis thaliana and Oryza sativa using K-Fold cross-validation. The prediction accuracy is evaluated using Pearson’s correlation coefficient (PCC), Mean absolute error (MAE), and Standard deviation of MAE. The predicted results for the phenotypes showed a higher correlation when the model is trained with SVs and TEs than with SNPs.
+We present a one-dimensional deep convolutional neural network model for genomic selection, NovGMDeep, that predicts phenotypes using novel genomic markers to evade the curse of high dimensionality and non-linearity of traditional GS models. The model avoids overfitting by applying the convolutional, pooling, and dropout layers hence decreases the complexity caused by the large number of genomic markers. We trained and evaluated the model on the samples of Arabidopsis thaliana and Oryza sativa using K-Fold cross-validation. The prediction accuracy is evaluated using Pearson’s correlation coefficient (PCC), Mean absolute error (MAE), and Standard deviation of MAE. The predicted results for the phenotypes showed a higher correlation when the model is trained with SVs and TEs than with SNPs. img width="200"
 
 #### NovGMDeep Architecture   
 <p align="center">
-<img width="200" img style="float: left;" src="Pictures/NovGMDeep.png">
+<img style="float: right;" src="Pictures/NovGMDeep.png">
 </p>    
 
 ## Install
