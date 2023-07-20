@@ -33,11 +33,14 @@ The phenotype data of Flowering time of A. thaliana samples can be found in the 
 
 ## Citation
 ```
-@article{sehrawat2022predicting,
-  title={Predicting Phenotypes From Novel Genomic Markers Using Deep Learning},
+@article{sehrawat2023predicting,
+  title={Predicting phenotypes from novel genomic markers using deep learning},
   author={Sehrawat, Shivani and Najafian, Keyhan and Jin, Lingling},
-  journal={bioRxiv},
-  year={2022},
-  publisher={Cold Spring Harbor Laboratory}
+  journal={Bioinformatics Advances},
+  volume={3},
+  number={1},
+  pages={vbad028},
+  year={2023},
+  publisher={Oxford University Press}
 }
 ```
