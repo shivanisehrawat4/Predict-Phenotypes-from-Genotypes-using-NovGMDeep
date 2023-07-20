@@ -1,6 +1,6 @@
 ## Predicting Phenotypes From Novel Genomic Markers Using Deep Learning
 
-NovGMDeep is a one-dimensional deep convolutional neural network model for genomic selection. It predicts phenotypes using novel genomic markers to reduce the curse of high dimensionality of SNP data. The model avoids overfitting by applying the convolutional, pooling, and dropout layers hence decreases the complexity caused by the large number of genomic markers. We trained and evaluated the model on the samples of Arabidopsis thaliana and Oryza sativa using K-Fold cross-validation. The prediction accuracy is evaluated using Pearson’s correlation coefficient (PCC), Mean absolute error (MAE), and Standard deviation of MAE. The predicted results for the phenotypes showed a higher correlation when the model is trained with SVs and TEs than with SNPs. 
+NovGMDeep is a one-dimensional deep convolutional neural network model for genomic selection. It predicts phenotypes using novel genomic markers to reduce the curse of high dimensionality of SNP data. The model avoids overfitting by applying the convolutional, pooling and dropout layers hence decreasing the complexity caused by a large number of genomic markers. We trained and evaluated the model on Arabidopsis thaliana and Oryza sativa samples using K-Fold cross-validation. The prediction accuracy is evaluated using Pearson’s correlation coefficient (PCC), Mean absolute error (MAE), and Standard deviation of MAE. The predicted results for the phenotypes showed a higher correlation when the model was trained with SVs and TEs than with SNPs. 
 
 #### NovGMDeep Architecture   
 <p align="center">
@@ -15,13 +15,13 @@ pip install -r requirements.txt
 
 ## Data
 The full VCF variant files containing the structural variants data for A. thaliana samples are publicly available on European Variation Archive https://www.ebi.ac.uk/ena/browser/view/ERZ1458872?show=analyses (PRJEB38975). \
-Please use the following link to download the zipped folder for the SV CSV files containing three files 'Deletions.csv', 'Duplications.csv', and 'Inversions.csv'. \
+Please use the following link to download the zipped folder to use the CSV files directly for the structural variants data. The folder contains three files 'Deletions.csv', 'Duplications.csv', and 'Inversions.csv'. \
 https://drive.google.com/file/d/1iW-Hv3iYa8KJBEnoBhxz3j0jWLebC0la/view?usp=drive_link \
 The phenotype data of Flowering time of A. thaliana samples can be found in the file "FT10_arabi.csv".
 
 ## Usage
 1. Data Preprocessing
-> Script for selecting high quality genotypes: quality_based_selection.ipynb \
+> Script for selecting high-quality genotypes: quality_based_selection.ipynb \
 > Script for making the data input-ready to the model: data_processing.ipynb
 
 2. Data Split
